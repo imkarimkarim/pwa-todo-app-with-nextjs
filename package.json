@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npx prettier --write components/**/*.js pages/**/*.js redux/**/*.js styles/**/*.css"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
